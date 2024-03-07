@@ -1,4 +1,4 @@
-print(f'Hello from {__name__}!')
+print(f'Hello from {__name__}!')  # __name__ is a global variable in the module!
 
 x = 100
 
