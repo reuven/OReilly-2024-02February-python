@@ -10,4 +10,10 @@ def get_choice(choices):
             return s
     
         print(f'{s} is invalid; try again')
-        
+
+# the below code will *not* run when we import the module!
+# but it will run if we ex
+
+if __name__ == '__main__':
+    user_choice = get_choice(['a', 'b', 'c'])
+    print(f'User chose {user_choice}')
