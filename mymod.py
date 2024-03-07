@@ -1,4 +1,4 @@
-print(f'Hello from mymod!')
+print(f'Hello from {__name__}!')
 
 x = 100
 
@@ -9,4 +9,4 @@ z = {'a':10, 'b':20, 'c':30}
 def hello(name):
     return f'Hello, {name}!'
 
-print(f'Goodbye from mymod!')   
+print(f'Goodbye from {__name__}!')   
